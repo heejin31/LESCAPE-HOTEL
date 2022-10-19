@@ -1,0 +1,425 @@
+@charset "UTF-8";
+/*sub_about*/
+
+.story_visual {    
+    width: 100%;
+    height: 100vh;
+    position: relative; 
+}
+.story_visual video {  
+    width: 100%;
+    height: 100%;
+    object-fit: cover;    
+}
+.story_text_container {    
+    position: absolute;
+    left: 0;
+    width: 100%;
+    top: 40%;
+    transform: translateY(-50%);
+    text-align: center;
+}
+.story_text {
+    font-size: 60px;
+    color: #fff;
+    text-shadow: 6px 2px 5px rgba(0,0,0,0.9);
+    margin-bottom: 30px;
+}
+
+.story_title {
+    width: 100%;
+    text-align: center;
+    margin: 8% 0;
+}
+.story_title h2 {
+    font-size: 5em;
+    text-shadow: 2px 6px 2px gray;
+}
+
+
+.container {
+    width: 100%;  
+}
+.container .story_wrap {margin: 10%;}
+.story_wrap .jacques {
+    position: relative;
+    left: 0;
+    display: flex;
+    width: 100%; 
+    height: 60vh;
+} 
+.jacques .jacques_photo {
+    background: url('../img/sub/story02_1.jpg') no-repeat;
+    background-position: top;
+    background-size: cover;
+    width: 223%;
+    height: 100%;
+
+}
+.jacques .jacques_text {
+    margin:10%;
+    text-align: left;
+}
+.jacques .jacques_text h2, .belle .belle_text h2 {
+    font-size: 3rem;
+}
+.jacques .jacques_text p, .belle .belle_text p {
+    font-size: 1rem;
+}
+
+.story_wrap .belle {       
+    width: 100%; 
+    height: 60vh;
+    overflow: hidden;
+    position: relative;
+}
+
+.belle .belle_text {
+    width: 50%;
+    float: left;
+    position: absolute;
+    bottom: 40%;
+    text-align: right;
+    padding-right: 10%;
+}
+
+.belle .belle_photo {
+    background: url('../img/sub/story02_2.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 50%;
+    height: 100%;      
+    float: right;
+}
+
+.bottom_photo_story{
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/sub/gallery_kv01.jpg') no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 300px;     
+    text-align: center;  
+    padding-top: 110px; 
+}
+
+.bottom_photo_story_next {
+    font-size: 15px;
+    color: #fff;
+}
+.bottom_photo_interior {
+    font-size: 30px;
+}
+
+
+
+
+
+
+/* sub_dining */
+.subVisual .title_dining {
+    position: absolute;
+    top: 250px;    
+    left:calc(50% - 60px);
+}
+
+
+.library_title .title_dining {
+    color: #000;
+    line-height: 1.5;
+    text-align: center;    
+}
+.library_title .title_dining strong {
+    display: block;
+    font-size: 35px;
+}
+.library_title .title_dining span {
+    font-size: 15px;
+    font-weight: 300;
+    margin-top: 10px;
+}
+
+
+
+
+.subVisual .visual_dining {
+    background: url('../img/sub/bg-amant-kv.jpg');
+    background-position: bottom;
+    background-size: cover;
+    height: 100%;    
+    max-width: 100%;
+}
+
+.dining_details {
+    margin: 40px auto 100px;
+    text-align: center;
+}
+.dining_details_inner {
+    padding: 12px 0 20px 29px;
+    display: inline-block;
+    width: 500px;
+    border-top: 1px solid #dcdcdc;
+    border-bottom: 1px solid #dcdcdc;
+    text-align: left;
+}
+
+.dining_details_inner dl {
+    margin: 8px auto 0;
+    font-size: 0;
+    letter-spacing: -0.5px;
+}
+.dining_details_inner dl dd {
+    margin-left: 12px;
+    font-family: 'CircularStd', 'Noto Sans KR', sans-serif;
+    color: #404040;
+    white-space: nowrap;
+    display: inline-block;
+    font-size: 16px;
+    line-height: 24px;
+}
+.dining_details_inner dl dt {
+    width: 85px;
+    color: #b79d58;
+    display: inline-block;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.dining_details_inner dl dd small {
+    margin-left: 3px;
+    color: #808080;
+    font-size: 14px;
+    letter-spacing: -0.81px;
+}
+
+
+
+
+
+
+
+
+
+/* sub_faclities */
+
+
+.subVisual {
+    height: 620px;    
+    background:#EEEEEE ;    
+}
+.subVisual .title {
+    position: absolute;
+    top: 250px;    
+    left:calc(50% - 60px);
+}
+.subVisual h1 {
+    font-size:48px ;
+    font-weight: bold;
+    color: #fff;
+}
+.subVisual .visual {
+    background: url('../img/sub/fac02_kv.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 100%;    
+    max-width: 100%;
+}
+.content_wrap {
+    padding: 100px 0;
+}
+.library_cont {
+    margin-top: 40px;    
+}
+
+.library_title {
+    position: relative;
+    margin: 70px 0 50px 0;
+}
+.library_title .title {
+    color: #000;
+    line-height: 1.5;
+    text-align: center;    
+}
+.library_title .title strong {
+    display: block;
+    font-size: 35px;
+}
+.library_title .title span {
+    font-size: 15px;
+    font-weight: 300;
+    margin-top: 10px;
+}
+
+.library_cont .details {
+    width: 472px;
+    margin: 0 auto;
+    padding: 20px 40px;
+    border: solid #dcdcdc;
+    border-width: 1px 0;
+    font-size: 0;
+    text-align: left;
+    color: #404040;
+    margin-bottom: 200px;
+}
+
+.library_cont .details dt {
+    width: 97px;
+    color: #b79d58;
+    letter-spacing: -.031em;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 16px;
+    line-height: 1.5;
+}
+.library_cont .details dd {
+    width: calc(100% - 100px);
+    font-family: 'CircularStd', 'Noto Sans KR', sans-serif;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-top: -5px;
+}
+.library_cont .details dd:not(:first-of-type) {
+    /*! margin-top: 8px; */
+}
+
+.library_cont .details .req {
+    display: block;
+    margin-top: 8px;
+    font-size: 14px;
+    letter-spacing: -.036em;
+    color: #808080;
+}
+
+.piano_wrap {
+    width: 100%; 
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    background: #0D1815;
+    padding: 0 4%;  
+}
+.piano_wrap .piano {
+    width: 60%;    
+}
+.piano img {
+    width: 80%;     
+    cursor: pointer;
+}
+.piano_text {   
+    padding-left: 96px;
+    color: #f0f0f0;
+    cursor: pointer;
+}
+.piano_text .sig {
+    display: block;
+    margin-bottom: 10px;
+    font-family: 'CircularStd', 'Noto Sans KR', sans-serif;
+    font-size: 16px;
+    color: #b79d58;
+}
+.piano_text h4 {
+    margin-bottom: 40px;
+    font-family: 'Sorts Mill Goudy', 'Noto Sans KR', sans-serif;
+    font-size: 32px;
+    line-height: 1.38;
+    letter-spacing: -1px;
+}
+.piano_text h5 {
+    margin-bottom: 8px;
+    font-family: 'Sorts Mill Goudy', 'Noto Sans KR', sans-serif;
+    font-size: 20px;
+    line-height: 1.6;
+    letter-spacing: -.025em;
+}
+.piano_text p {
+    color: rgba(216, 216, 216, 0.8);
+}
+
+
+
+
+
+.middle_slider_wrap { 
+    width: 100%;
+    height: 80vh;
+    transition: all 0.8s;
+}
+ul.middle_slider_list {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;    
+    width: 80%;
+    margin: 0 auto;
+    height: 100%;
+    transition: all 0.8s;
+}
+li.middle_slider {
+    width: 25%;
+    height: 50%;
+    padding-left: 10px;
+}
+.middle_slider_item1 {
+    background: url('../img/sub/20200213_7mf_1581588221073.jpg')no-repeat;
+    background-size: cover; 
+    background-position: left;
+    border-radius: 50% 50%;
+    width: 90%;
+    height: 0;
+    padding-top: 90%;
+}
+.middle_slider_item2 {
+    background: url('../img/sub/20200213_9s7_1581588226970.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50% 50%;
+    width: 90%;
+    height: 0;
+    padding-top: 90%;
+}
+.middle_slider_item3 {
+    background: url('../img/sub/20200213_o6g_1581588230467.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50% 50%;
+    width: 90%;
+    height: 0;
+    padding-top: 90%;
+}
+.middle_slider_item4 {
+    background: url('../img/sub/20200213_pZm_1581588218392.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50% 50%;
+    width: 90%;
+    height: 0;
+    padding-top: 90%;
+}
+.middle_slider_item5 {
+    background: url('../img/sub/20200120_jvu_1579485060156.jpg') no-repeat;
+    background-size: cover;
+    background-position: left;
+    border-radius: 50% 50%;
+    width: 90%;
+    height: 0;
+    padding-top: 90%;
+}
+
+
+.bottom_photo {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/sub/fac01_kv.jpg') no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 300px;     
+    text-align: center;  
+    padding-top: 110px; 
+}
+
+.bottom_photo_next {
+    font-size: 15px;
+    color: #fff;
+}
+.bottom_photo_spa {
+    font-size: 30px;
+}
+
+

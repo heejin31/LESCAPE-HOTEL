@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+
+* {   
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header, main, section, aside, article, footer, nav, menu, details,figure, figcaption {
+  display: block;
+}
+li { 
+  list-style: none;
+}
+a { 
+  text-decoration: none;
+  color: #fff;
+}
+img {
+  border: 0;
+  vertical-align: middle;
+}
+
+h1 {
+  color: #fff;
+  font-size: 2.7rem;
+  font-family: 'Sorts Mill Goudy','Noto Sans KR', sans-serif;
+}
