@@ -1,4 +1,6 @@
 @charset "UTF-8";
+
+
 /*sub_about*/
 
 .story_visual {    
@@ -20,10 +22,9 @@
     text-align: center;
 }
 .story_text {
-    font-size: 60px;
+    font-size: 3em;
     color: #fff;
     text-shadow: 6px 2px 5px rgba(0,0,0,0.9);
-    margin-bottom: 30px;
 }
 
 .story_title {

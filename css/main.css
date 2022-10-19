@@ -202,7 +202,7 @@ ul.navbar_gnb {}
 .section1 .welcome {
     width: calc(50% - 20px);        
     text-align: center;
-    margin:300px 0 250px 0;
+    margin:300px 20px 250px 0;
     float: left;       
     color: #98834F;
 }
@@ -224,19 +224,21 @@ ul.navbar_gnb {}
     width: calc(50% - 20px);
     height: 70%; 
     margin-top:100px;
-    margin-left: 20px;
+    /*! margin-left: 20px; */
     background: url('../img/wedding.jpg')no-repeat;
     background-position: center;
 }
 
 .welcome_photo2 {
-    float: left;
+    /*! float: left; */
     background: url('../img/img_overview06.jpg') no-repeat;  
     background-size: cover;  
     background-position: center;
     width: calc(50% - 20px);
     height: 30%;
     
+    position: relative;
+    top: 60%;
 }
 
 /* section2 */
@@ -305,7 +307,7 @@ ul.navbar_gnb {}
     left: 50%;
     transform: translate(-50%, -50%);
     margin: 0;
-    font-size: 1.2em;
+    font-size: 1.1em;
 }
 .special_text .special_text_tablet {
     display: none;
@@ -359,7 +361,7 @@ ul.rooms .rooms_photo {
 }
 
 .rooms_photo img:hover {
-    transform: scale(1.05);
+    transform: scale(1.03);
 }
 .rooms_photo h2 {
     font-size: 1.6em;
@@ -369,10 +371,10 @@ ul.rooms .rooms_photo {
     padding: 0 15px;
 }  
 .rooms_text_sub { 
-    margin: 50px 0;
+    margin: 10% 0;
 }
 .rooms_text_sub_pc {
-    font-size: 1em;   
+    font-size: 0.95em;   
 }
 
 .rooms_text_sub_m {
@@ -392,7 +394,7 @@ ul.rooms .more_wrap {
     padding: 100px 0;
 }
 .section4 h1 {
-    padding: 100px 0;
+    padding: 10% 0;
 
 }
 .section4 h1::after {

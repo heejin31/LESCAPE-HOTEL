@@ -11,6 +11,9 @@
   .rooms_photo .rooms_text {
     padding: 0 10px;
   }
+  .welcome_photo2  {
+    top: 95vh
+  }
 }
 
 
@@ -394,21 +397,41 @@ ul.rooms li:nth-of-type(3) {
   }
 
   .special_text h1 {
-  top: 10%;
+  top: 13%;
   }
 
+  .section3 {
+    padding-bottom: 0;
+  }
   .section3 h1 {
-    padding: 140px 0 80px 0;
+    padding: 60% 0 80px 0;
   }
   .rooms_photo h2 {
     font-size: 1.5em;
   }
 
+  ul.rooms .rooms_first {
+    
+  height: 50%;
+  }
 
 
   .special_photo {    
     bottom: 50%;
   }
+  .rooms_photo img {
+    
+  }
 
+  .section4 {
+    
+  padding: 10% 0;
+  }
+  .section4 h1 {
+    padding: 0 0 10% 0;
+  }
+  .slider_item h3 {
 
+  left: calc(100% - 50px);
+  }
 }
