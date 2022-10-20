@@ -211,7 +211,7 @@ ul.navbar_gnb {}
     color: #98834F;
 }
 .section1 .welcome_text_pc {
-    line-height: 1.8;
+    line-height: 1.8em;
     font-size: 1em;
 }
 .section1 .welcome_text_m {
@@ -307,7 +307,7 @@ ul.navbar_gnb {}
     left: 50%;
     transform: translate(-50%, -50%);
     margin: 0;
-    font-size: 1.1em;
+    font-size: 1em;
 }
 .special_text .special_text_tablet {
     display: none;

@@ -118,6 +118,9 @@
         position: relative;
         top: -22%;
     }
+    .dining img {
+        padding-right: 10%;
+    }
     .library_title .title_dining strong {
         
     font-size: 25px;

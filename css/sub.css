@@ -433,6 +433,7 @@ li.middle_slider {
     align-items: center;
     background: #0D1815;
     padding: 0 4%;  
+    overflow: hidden;
 }
 .dining_wrap .piano {
     width: 60%;    
