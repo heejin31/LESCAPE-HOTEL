@@ -2,6 +2,9 @@
   .section1 .welcome {
     margin: 185px 0 100px 0;
   }
+  .welcome_text_pc {
+    font-size: 1em;
+  }
   .special_text p {
     font-size: 14px;
   }    
@@ -10,6 +13,9 @@
   }
   .rooms_photo .rooms_text {
     padding: 0 10px;
+  }
+  .welcome_photo2  {
+    top: 95vh
   }
 }
 
@@ -394,7 +400,7 @@ ul.rooms li:nth-of-type(3) {
   }
 
   .special_text h1 {
-  top: 10%;
+  top: 13%;
   }
 
   .section3 {
@@ -425,10 +431,10 @@ ul.rooms li:nth-of-type(3) {
   padding: 10% 0;
   }
   .section4 h1 {
-    padding: 10% 0;
+    padding: 0 0 10% 0;
   }
   .slider_item h3 {
 
-  left: calc(100% - 60px);
+  left: calc(100% - 50px);
   }
 }
