@@ -44,8 +44,7 @@
 .container .story_wrap {margin: 10%;}
 .story_wrap .jacques {
     position: relative;
-    left: 0;
-    display: flex;
+    overflow: hidden;
     width: 100%; 
     height: 60vh;
 } 
@@ -53,13 +52,15 @@
     background: url('../img/sub/story02_1.jpg') no-repeat;
     background-position: top;
     background-size: cover;
-    width: 223%;
+    width: 50%;
     height: 100%;
-
+    float: left;
 }
 .jacques .jacques_text {
-    margin:10%;
-    text-align: left;
+        width: 50%;
+        float: right;
+        text-align: left;
+        padding: 10%;
 }
 .jacques .jacques_text h2, .belle .belle_text h2 {
     font-size: 3rem;
@@ -424,3 +425,137 @@ li.middle_slider {
 }
 
 
+/* sub_dining */
+.dining_wrap {
+    width: 100%; 
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    background: #0D1815;
+    padding: 0 4%;  
+}
+.dining_wrap .piano {
+    width: 60%;    
+}
+.dining img {
+    width: 100%;     
+    cursor: pointer;
+    height: 80%;
+    padding-left: 20%;
+}
+.dining_text {   
+    padding-left: 20%;
+    color: #f0f0f0;
+    cursor: pointer;
+}
+.dining_text .sig {
+    display: block;
+    margin-bottom: 10px;
+    font-family: 'CircularStd', 'Noto Sans KR', sans-serif;
+    font-size: 16px;
+    color: #b79d58;
+}
+.dining_text h4 {
+    margin-bottom: 40px;
+    font-family: 'Sorts Mill Goudy', 'Noto Sans KR', sans-serif;
+    font-size: 32px;
+    line-height: 1.38;
+    letter-spacing: -1px;
+}
+.diningo_text h5 {
+    margin-bottom: 8px;
+    font-family: 'Sorts Mill Goudy', 'Noto Sans KR', sans-serif;
+    font-size: 20px;
+    line-height: 1.6;
+    letter-spacing: -.025em;
+}
+.dining_text p {
+    color: rgba(216, 216, 216, 0.8);
+}
+/* .dining_details_inner dd br {
+    display: none;
+} */
+
+.middle_slider_dining_wrap { 
+    width: 100%;
+    height: 80vh;
+    transition: all 0.8s;
+}
+ul.middle_slider_dining_list {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;    
+    width: 80%;
+    margin: 0 auto;
+    height: 100%;
+    transition: all 0.8s;
+}
+li.middle_slider_dining {
+    width: 25%;
+    height: 50%;
+    padding-left: 10px;
+}
+.middle_slider_dining_item1 {
+    background: url('../img/img-dining-menu-3-2.jpg')no-repeat;
+    background-size: cover; 
+    background-position: center;
+    border-radius: 50% 50%;
+    width: 90%;
+    height: 0;
+    padding-top: 90%;
+}
+.middle_slider_dining_item2 {
+    background: url('../img/sub/img-dining-menu-3-1.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50% 50%;
+    width: 90%;
+    height: 0;
+    padding-top: 90%;
+}
+.middle_slider_dining_item3 {
+    background: url('../img/sub/img-dining-menu-4-3 (1).jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50% 50%;
+    width: 90%;
+    height: 0;
+    padding-top: 90%;
+}
+.middle_slider_dining_item4 {
+    background: url('../img/sub/slider-img-dining04-1.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50% 50%;
+    width: 90%;
+    height: 0;
+    padding-top: 90%;
+}
+.middle_slider_dining_item5 {
+    background: url('../img/sub/20220224_FA0_1645680585959.jpg') no-repeat;
+    background-size: cover;
+    background-position: left;
+    border-radius: 50% 50%;
+    width: 90%;
+    height: 0;
+    padding-top: 90%;
+}
+
+
+
+.bottom_photo_dining {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/sub/bg-main-header02.jpg') no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 300px;     
+    text-align: center;  
+    padding-top: 110px; 
+}
+
+.bottom_photo_dining_next {
+    font-size: 15px;
+    color: #fff;
+}
+.bottom_photo_dining_spa {
+    font-size: 30px;
+}

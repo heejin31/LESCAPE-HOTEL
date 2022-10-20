@@ -1,18 +1,140 @@
 @charset "UTF-8";
 
-/*sub_about*/
+
 @media (max-width:1270px){
-    
-    
+    .jacques .jacques_text {
+        padding:5% 10%;
+    }
+    .dining_wrap {
+        padding: 0 10%;
+    }
+    .dining_text{
+
+    }
+    .dining {}
+    .dining img {padding-left: 10%;}
 }
 
 @media (max-width:1160px) {
+    .jacques .jacques_text p, .belle .belle_text p {
+        font-size: 0.8rem;
+    }
 
+    .subVisual .title {
+        left: calc(50% - 60px);
+    }
+
+    .piano img {
+        width: 95%;
+        height: 60vh;
+    }
+    .piano_text h4 {
+        font-size: 1.5em;
+    
+    }
+    .piano_text p {font-size: 0.9rem;}
+    
 }
 
 
-@media (max-width:768px) { }
+@media (max-width:768px) {
+    .story_wrap .jacques {
+        overflow:initial;
+    }
+    .story_wrap .belle {
+        display: none;
+    }
+    
+    .jacques .jacques_photo {
+        float: none;
+        width: 100%;
+        height: 70%;
+    }
+    .jacques .jacques_text {
+        float: none;
+        width: 100%;
+        text-align: initial;
+        padding: 5% 10% 20% 10%;
+    }
+
+    .jacques .jacques_text h2 br {
+        display: none;
+    }
+
+    .bottom_photo_story, .bottom_photo, .bottom_photo_dining {
+        height: 180px;
+        padding-top: 70px;
+    }
+    .container .story_wrap { margin: 10% 10% 30% 10%;}
+    .library_title .title span {font-size: 12px;padding: 0 5px;}
+
+    footer {
+        padding: 50px 0;
+      }
+      footer a,.address, p ,span {
+        display: block;
+        font-size: 0.8em;
+      }
+    
+      .footer_logo {
+        transform: scale(0.7);
+      }
+      span.design_award img {
+        transform: scale(0.8);
+      }
+    
+      ul.links li {
+        display: block;
+        padding: 2% 0;
+      }
+      .piano_wrap, .dining_wrap {
+        display: block;
+      }
+
+      .piano_wrap .piano {        
+            width: 100%;
+      }
+      .dining_wrap .dining {
+        width: 100%;
+        padding: 15% 0;
+        height: 100%;
+      }
+
+      
+      .piano_text h5 {
+        display: none;
+      }
+      .piano_text p, .dining_text p {
+        display: none;
+      }
+      .piano_text {
+        text-align: center;
+        padding: 10px 10px 0 10px;
+    }
+    .dining_text {
+        text-align: center;
+        padding: 0 10px;
+        position: relative;
+        top: -22%;
+    }
+    .library_title .title_dining strong {
+        
+    font-size: 25px;
+    }
+    .library_title .title_dining span {
+        
+    font-size: 12px;
+    }
+
+ }
 
 
 
-@media (max-width:430px) {}
+@media (max-width:430px) {
+    .jacques .jacques_text h2 {
+        font-size: 2rem;
+        text-align: center;
+    }
+    .subVisual .title {left: 25%;}
+
+}

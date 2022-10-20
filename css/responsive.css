@@ -2,6 +2,9 @@
   .section1 .welcome {
     margin: 185px 0 100px 0;
   }
+  .welcome_text_pc {
+    font-size: 1em;
+  }
   .special_text p {
     font-size: 14px;
   }    
