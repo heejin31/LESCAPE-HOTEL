@@ -7,6 +7,7 @@
     }
     .dining_wrap {
         padding: 0 10%;
+        overflow: hidden;
     }
     .dining_text{
 
